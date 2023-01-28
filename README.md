@@ -1,5 +1,5 @@
 <h1> Temperature Converter </h1>
-
+<p> This is a ReactJS project. </p>
 Communication between Components in React was provided by the App. Transformation was provided in 3 different units according to the temperature increased with the button.
 
 
