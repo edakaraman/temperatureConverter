@@ -25,7 +25,7 @@ class App extends Component {
         <Container>
           <Row>
             <Col>
-              <h2> Hava Nasıl </h2>
+              <h2 align="center"> How's the weather? </h2>
               <InitialDegree initDegree={this.state.initDegree} />
             </Col>
           </Row>
@@ -35,13 +35,13 @@ class App extends Component {
                 color="secondary"
                 onClick={() => this.increaseValue(this.state.initDegree)}
               >
-                Sıcaklık Arttır
+                Increase Temperature
               </Button>
             </Col>
           </Row>
           <Row>
             <Col>
-              <h5> 3 Birimde Sıcaklık Ölçümü </h5>
+              <h5> Temperature Measurement in 3 Units </h5>
             </Col>
           </Row>
           <Row>
